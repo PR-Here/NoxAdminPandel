@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dback"
+
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_corners">
+
+        <TextView
+            android:id="@+id/lite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/patua_one"
+            android:text="Admin Login"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/patua_one"
+        android:text="Thanks For Using"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/search_layout"
+        android:gravity="center"
+        android:hint="Enter Mobile No."
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/wait_txt"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/patua_one"
+        android:gravity="center"
+        android:text="please wait"
+        android:textColor="@color/colorAccent"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/search_layout"
+        android:gravity="center"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_shape"
+        android:text="click to verify"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+        android:fontFamily="@font/patua_one"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Login/Register"
+        android:textSize="12dp"
+
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pankaj.adminnox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.DetailActivity"></activity>
+        <activity android:name=".Activity.Main2Activity" />
+        <activity android:name=".Activity.AllResult_Activity" />
+        <activity android:name=".Activity.ViewResult_Activity" />
+        <activity android:name=".Activity.EnterUserDeatl_Activity" />
+        <activity android:name=".ModeActivity.LiteTdm_Activity" />
+        <activity android:name=".ModeActivity.LiteSquad_Activity" />
+        <activity android:name=".ModeActivity.LiteDuo_Activity" />
+        <activity android:name=".ModeActivity.LiteSolo_Activity" />
+        <activity android:name=".ModeActivity.ClassicTdm_Activity" />
+        <activity android:name=".ModeActivity.ClassicArcade_Activity" />
+        <activity android:name=".ModeActivity.ClassicSquad_Activity" />
+        <activity android:name=".ModeActivity.ClassicDuo_Activity" />
+        <activity android:name=".ModeActivity.ClassicSolo_Activity" />
+        <activity android:name=".Activity.AllUserDetail_Activity" />
+        <activity android:name=".Activity.All_inOne_Activity" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

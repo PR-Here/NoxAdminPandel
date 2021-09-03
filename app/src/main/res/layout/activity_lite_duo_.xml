@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModeActivity.ClassicSolo_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/patua_one"
+            android:text="Lite Duo"
+            android:textColor="#FFF"
+            android:textSize="14dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/matchno"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Match No."
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Date"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Time"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Registration"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/roomid"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Room Id"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Password"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/prizepool"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="PrizePool"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/perkill"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Perkill"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/entryfee"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Entry Fee"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/type"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Type"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Mode"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Map"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/information"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Information"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/disabled"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Disabled"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/paidentry"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Paid Entry"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/winner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Winner"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/rank1"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Rank 1"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/rank2"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Rank 2"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/rank3"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Rank 3"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/edittext_border">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/upiid"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:fontFamily="@font/patua_one"
+                        android:hint="Upiid"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="12dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/edittext_border"
+                    android:fontFamily="@font/patua_one"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Update"
+                    android:textColor="#000" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

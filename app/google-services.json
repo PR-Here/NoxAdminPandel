@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "91837062166",
+    "firebase_url": "https://nox-gaming-4d28c.firebaseio.com",
+    "project_id": "nox-gaming-4d28c",
+    "storage_bucket": "nox-gaming-4d28c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91837062166:android:13766fe13f9405ced56937",
+        "android_client_info": {
+          "package_name": "com.mobisoftseo.rana_gaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91837062166-8u79k9opj9h3ui6jeq9cv0o04reoqect.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobisoftseo.rana_gaming",
+            "certificate_hash": "808f0330e12c4144ab5aa2087e6e2373c7435d3e"
+          }
+        },
+        {
+          "client_id": "91837062166-akjeqtto9kn3a08ucq3keg6a7m0btcvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobisoftseo.rana_gaming",
+            "certificate_hash": "309d0f92df59d36b016b7eed1661151ae7fe5033"
+          }
+        },
+        {
+          "client_id": "91837062166-lvq5capnfoe6e4slv2802ik1k0kv2dg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO2uWY9mQ3zM-NAPkTKQ4KFONraOuv5Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91837062166-lvq5capnfoe6e4slv2802ik1k0kv2dg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91837062166:android:c773e13a55b72dedd56937",
+        "android_client_info": {
+          "package_name": "com.pankaj.adminnox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91837062166-lvq5capnfoe6e4slv2802ik1k0kv2dg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO2uWY9mQ3zM-NAPkTKQ4KFONraOuv5Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91837062166-lvq5capnfoe6e4slv2802ik1k0kv2dg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

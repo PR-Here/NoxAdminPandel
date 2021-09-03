@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/classicsolo"
+        android:title="ClassicSolo" />
+
+    <item
+        android:id="@+id/classicduo"
+        android:title="ClassicDuo" />
+
+
+    <item
+        android:id="@+id/classicsquad"
+        android:title="ClassicSquad" />
+
+    <item
+        android:id="@+id/classicarcade"
+        android:title="ClassicArcade" />
+
+
+    <item
+        android:id="@+id/classictdm"
+        android:title="ClassicTDM" />
+
+    <item
+        android:id="@+id/litesolo"
+        android:title="LiteSolo" />
+
+    <item
+        android:id="@+id/liteduo"
+        android:title="LiteDuo" />
+
+
+    <item
+        android:id="@+id/litesquad"
+        android:title="LiteSquad" />
+
+    <item
+        android:id="@+id/litetdm"
+        android:title="LiteTDM" />
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText"
+        />
+
+
+</menu>
